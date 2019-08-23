@@ -11,6 +11,7 @@
 #import "Mark.h"
 
 @implementation CanvasView
+@synthesize mark=mark_;
 
 - (void)drawRect:(CGRect)rect {
     CGContextRef context = UIGraphicsGetCurrentContext();

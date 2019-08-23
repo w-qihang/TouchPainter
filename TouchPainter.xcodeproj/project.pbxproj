@@ -7,32 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C221C5F230C11C5007D4930 /* Scribble.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C5E230C11C5007D4930 /* Scribble.m */; };
+		3C221C63230CF4C4007D4930 /* CoordinatingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C62230CF4C4007D4930 /* CoordinatingController.m */; };
+		3C221C6E230D2B0A007D4930 /* StandardCharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C69230D2B09007D4930 /* StandardCharacterBuilder.m */; };
+		3C221C6F230D2B0A007D4930 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C6B230D2B0A007D4930 /* Character.m */; };
+		3C221C70230D2B0A007D4930 /* CharacterBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C6D230D2B0A007D4930 /* CharacterBuilder.m */; };
+		3C221C73230D2B29007D4930 /* ChasingGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C71230D2B29007D4930 /* ChasingGame.m */; };
+		3C221C77230D4040007D4930 /* ScribbleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C76230D4040007D4930 /* ScribbleManager.m */; };
+		3C221C7F230E42CD007D4930 /* ImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C7E230E42CD007D4930 /* ImageFilter.m */; };
+		3C221C82230E453D007D4930 /* ImageTransformFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C81230E453D007D4930 /* ImageTransformFilter.m */; };
+		3C221C85230E46A6007D4930 /* ImageShadowFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C84230E46A6007D4930 /* ImageShadowFilter.m */; };
+		3C221C8D230E6FED007D4930 /* UIImage+BaseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C88230E6FED007D4930 /* UIImage+BaseFilter.m */; };
+		3C221C8E230E6FED007D4930 /* UIImage+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C89230E6FED007D4930 /* UIImage+Shadow.m */; };
+		3C221C8F230E6FED007D4930 /* UIImage+Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C8B230E6FED007D4930 /* UIImage+Transform.m */; };
+		3C221CA1230E8A12007D4930 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221C9F230E8A12007D4930 /* Command.m */; };
+		3C221CA2230E8A12007D4930 /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221CA0230E8A12007D4930 /* CommandSlider.m */; };
+		3C221CA5230E8B20007D4930 /* DrawScribbleCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221CA4230E8B20007D4930 /* DrawScribbleCommand.m */; };
+		3C221CB0230EB921007D4930 /* FlowerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221CAC230EB920007D4930 /* FlowerFactory.m */; };
+		3C221CB1230EB921007D4930 /* FlowerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221CAE230EB921007D4930 /* FlowerView.m */; };
+		3C221CB7230EB93E007D4930 /* FlyweightView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221CB2230EB93D007D4930 /* FlyweightView.m */; };
+		3C221CB8230EB93E007D4930 /* FlyweightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221CB6230EB93E007D4930 /* FlyweightViewController.m */; };
+		3C221CBC230F831C007D4930 /* ScribbleThumbnailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221CBB230F831C007D4930 /* ScribbleThumbnailView.m */; };
+		3C221CBF230F84C2007D4930 /* ScribbleThumbnailViewImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C221CBE230F84C2007D4930 /* ScribbleThumbnailViewImageProxy.m */; };
 		3C27A24222F1737100BBE6D0 /* ConsoleEmulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C27A24122F1737100BBE6D0 /* ConsoleEmulator.m */; };
 		3C27A24622F1782500BBE6D0 /* ConsoleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C27A24522F1782500BBE6D0 /* ConsoleController.m */; };
 		3C27A24B22F3D98B00BBE6D0 /* MarkRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C27A24A22F3D98B00BBE6D0 /* MarkRenderer.m */; };
 		3C27A24F22F4347300BBE6D0 /* Attack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C27A24E22F4347300BBE6D0 /* Attack.m */; };
 		3C27A25222F434ED00BBE6D0 /* AttackHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C27A25122F434ED00BBE6D0 /* AttackHandler.m */; };
+		3C27AAFD230FD13A00154B96 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C27AAFB230FD13A00154B96 /* CanvasViewController.m */; };
+		3C27AB02230FD96A00154B96 /* ScribbleMemento.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C27AB01230FD96A00154B96 /* ScribbleMemento.m */; };
+		3C27AB0A230FE1C100154B96 /* ScribbleMemento+Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C27AB09230FE1C100154B96 /* ScribbleMemento+Friend.m */; };
 		3C6C2AE922E8466200B47C1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2AE822E8466200B47C1F /* AppDelegate.m */; };
 		3C6C2AEC22E8466200B47C1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2AEB22E8466200B47C1F /* ViewController.m */; };
 		3C6C2AEF22E8466200B47C1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6C2AED22E8466200B47C1F /* Main.storyboard */; };
 		3C6C2AF122E8466400B47C1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C6C2AF022E8466400B47C1F /* Assets.xcassets */; };
 		3C6C2AF422E8466400B47C1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6C2AF222E8466400B47C1F /* LaunchScreen.storyboard */; };
 		3C6C2AF722E8466400B47C1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2AF622E8466400B47C1F /* main.m */; };
-		3C6C2B0122E8466400B47C1F /* TouchPainterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B0022E8466400B47C1F /* TouchPainterTests.m */; };
-		3C6C2B0C22E8466400B47C1F /* TouchPainterUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B0B22E8466400B47C1F /* TouchPainterUITests.m */; };
 		3C6C2B3422E846EB00B47C1F /* Dot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B2022E846EB00B47C1F /* Dot.m */; };
 		3C6C2B3522E846EB00B47C1F /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B2322E846EB00B47C1F /* Vertex.m */; };
 		3C6C2B3622E846EB00B47C1F /* Stroke.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B2522E846EB00B47C1F /* Stroke.m */; };
 		3C6C2B3722E846EB00B47C1F /* MarkEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B2722E846EB00B47C1F /* MarkEnumerator.m */; };
 		3C6C2B3822E846EB00B47C1F /* NSMutableArray+Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B2822E846EB00B47C1F /* NSMutableArray+Stack.m */; };
-		3C6C2B3A22E846EB00B47C1F /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B2F22E846EB00B47C1F /* Command.m */; };
 		3C6C2B3B22E846EB00B47C1F /* SetStrokeColorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B3022E846EB00B47C1F /* SetStrokeColorCommand.m */; };
 		3C6C2B4822E8556A00B47C1F /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B4422E8556900B47C1F /* CanvasView.m */; };
-		3C6C2B4922E8556A00B47C1F /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B4722E8556A00B47C1F /* CanvasViewController.m */; };
 		3C6C2B4C22E8559000B47C1F /* CanvasViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B4B22E8559000B47C1F /* CanvasViewGenerator.m */; };
 		3C6C2B5022E86B3700B47C1F /* BrandingFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B4F22E86B3700B47C1F /* BrandingFactory.m */; };
 		3C6C2B5622E997B400B47C1F /* PaletteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B5522E997B400B47C1F /* PaletteViewController.m */; };
-		3C6C2B5922E998A300B47C1F /* CommandSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C6C2B5722E998A300B47C1F /* CommandSlider.m */; };
 		3CA893FF22F80EF9009EFEE3 /* AnySandwich.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA893FE22F80EF9009EFEE3 /* AnySandwich.m */; };
 		3CA8940222F81B2B009EFEE3 /* ReubenSandwich.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8940122F81B2B009EFEE3 /* ReubenSandwich.m */; };
 		3CA8940522F81C0F009EFEE3 /* Hamburger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8940422F81C0F009EFEE3 /* Hamburger.m */; };
@@ -42,24 +62,53 @@
 		3CA8941222F830F9009EFEE3 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA8941122F830F9009EFEE3 /* CustomTextField.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		3C6C2AFD22E8466400B47C1F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3C6C2ADC22E8466200B47C1F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C6C2AE322E8466200B47C1F;
-			remoteInfo = TouchPainter;
-		};
-		3C6C2B0822E8466400B47C1F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3C6C2ADC22E8466200B47C1F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3C6C2AE322E8466200B47C1F;
-			remoteInfo = TouchPainter;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		3C221C5D230C11C5007D4930 /* Scribble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Scribble.h; sourceTree = "<group>"; };
+		3C221C5E230C11C5007D4930 /* Scribble.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Scribble.m; sourceTree = "<group>"; };
+		3C221C61230CF4C4007D4930 /* CoordinatingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoordinatingController.h; sourceTree = "<group>"; };
+		3C221C62230CF4C4007D4930 /* CoordinatingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoordinatingController.m; sourceTree = "<group>"; };
+		3C221C68230D2B09007D4930 /* StandardCharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StandardCharacterBuilder.h; sourceTree = "<group>"; };
+		3C221C69230D2B09007D4930 /* StandardCharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StandardCharacterBuilder.m; sourceTree = "<group>"; };
+		3C221C6A230D2B09007D4930 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		3C221C6B230D2B0A007D4930 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		3C221C6C230D2B0A007D4930 /* CharacterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterBuilder.h; sourceTree = "<group>"; };
+		3C221C6D230D2B0A007D4930 /* CharacterBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterBuilder.m; sourceTree = "<group>"; };
+		3C221C71230D2B29007D4930 /* ChasingGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChasingGame.m; sourceTree = "<group>"; };
+		3C221C72230D2B29007D4930 /* ChasingGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChasingGame.h; sourceTree = "<group>"; };
+		3C221C75230D4040007D4930 /* ScribbleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleManager.h; sourceTree = "<group>"; };
+		3C221C76230D4040007D4930 /* ScribbleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleManager.m; sourceTree = "<group>"; };
+		3C221C79230E4148007D4930 /* ImageComponent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageComponent.h; sourceTree = "<group>"; };
+		3C221C7D230E42CD007D4930 /* ImageFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageFilter.h; sourceTree = "<group>"; };
+		3C221C7E230E42CD007D4930 /* ImageFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageFilter.m; sourceTree = "<group>"; };
+		3C221C80230E453D007D4930 /* ImageTransformFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageTransformFilter.h; sourceTree = "<group>"; };
+		3C221C81230E453D007D4930 /* ImageTransformFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageTransformFilter.m; sourceTree = "<group>"; };
+		3C221C83230E46A6007D4930 /* ImageShadowFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageShadowFilter.h; sourceTree = "<group>"; };
+		3C221C84230E46A6007D4930 /* ImageShadowFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageShadowFilter.m; sourceTree = "<group>"; };
+		3C221C87230E6FED007D4930 /* UIImage+BaseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BaseFilter.h"; sourceTree = "<group>"; };
+		3C221C88230E6FED007D4930 /* UIImage+BaseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BaseFilter.m"; sourceTree = "<group>"; };
+		3C221C89230E6FED007D4930 /* UIImage+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Shadow.m"; sourceTree = "<group>"; };
+		3C221C8A230E6FED007D4930 /* UIImage+Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Transform.h"; sourceTree = "<group>"; };
+		3C221C8B230E6FED007D4930 /* UIImage+Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Transform.m"; sourceTree = "<group>"; };
+		3C221C8C230E6FED007D4930 /* UIImage+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Shadow.h"; sourceTree = "<group>"; };
+		3C221C9D230E8A12007D4930 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		3C221C9E230E8A12007D4930 /* CommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
+		3C221C9F230E8A12007D4930 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		3C221CA0230E8A12007D4930 /* CommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
+		3C221CA3230E8B20007D4930 /* DrawScribbleCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawScribbleCommand.h; sourceTree = "<group>"; };
+		3C221CA4230E8B20007D4930 /* DrawScribbleCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawScribbleCommand.m; sourceTree = "<group>"; };
+		3C221CAC230EB920007D4930 /* FlowerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerFactory.m; sourceTree = "<group>"; };
+		3C221CAD230EB920007D4930 /* FlowerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerView.h; sourceTree = "<group>"; };
+		3C221CAE230EB921007D4930 /* FlowerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowerView.m; sourceTree = "<group>"; };
+		3C221CAF230EB921007D4930 /* FlowerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowerFactory.h; sourceTree = "<group>"; };
+		3C221CB2230EB93D007D4930 /* FlyweightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightView.m; sourceTree = "<group>"; };
+		3C221CB3230EB93D007D4930 /* ExtrinsicFlowerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtrinsicFlowerState.h; sourceTree = "<group>"; };
+		3C221CB4230EB93D007D4930 /* FlyweightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightView.h; sourceTree = "<group>"; };
+		3C221CB5230EB93E007D4930 /* FlyweightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlyweightViewController.h; sourceTree = "<group>"; };
+		3C221CB6230EB93E007D4930 /* FlyweightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlyweightViewController.m; sourceTree = "<group>"; };
+		3C221CBA230F831C007D4930 /* ScribbleThumbnailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleThumbnailView.h; sourceTree = "<group>"; };
+		3C221CBB230F831C007D4930 /* ScribbleThumbnailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleThumbnailView.m; sourceTree = "<group>"; };
+		3C221CBD230F84C2007D4930 /* ScribbleThumbnailViewImageProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleThumbnailViewImageProxy.h; sourceTree = "<group>"; };
+		3C221CBE230F84C2007D4930 /* ScribbleThumbnailViewImageProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleThumbnailViewImageProxy.m; sourceTree = "<group>"; };
 		3C27A24022F1737100BBE6D0 /* ConsoleEmulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleEmulator.h; sourceTree = "<group>"; };
 		3C27A24122F1737100BBE6D0 /* ConsoleEmulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConsoleEmulator.m; sourceTree = "<group>"; };
 		3C27A24322F1744400BBE6D0 /* ConsoleCommands.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConsoleCommands.h; sourceTree = "<group>"; };
@@ -72,6 +121,12 @@
 		3C27A24E22F4347300BBE6D0 /* Attack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Attack.m; sourceTree = "<group>"; };
 		3C27A25022F434ED00BBE6D0 /* AttackHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AttackHandler.h; sourceTree = "<group>"; };
 		3C27A25122F434ED00BBE6D0 /* AttackHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttackHandler.m; sourceTree = "<group>"; };
+		3C27AAFB230FD13A00154B96 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		3C27AAFC230FD13A00154B96 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		3C27AB00230FD96A00154B96 /* ScribbleMemento.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScribbleMemento.h; sourceTree = "<group>"; };
+		3C27AB01230FD96A00154B96 /* ScribbleMemento.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScribbleMemento.m; sourceTree = "<group>"; };
+		3C27AB06230FDA3A00154B96 /* ScribbleMemento+Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScribbleMemento+Friend.h"; sourceTree = "<group>"; };
+		3C27AB09230FE1C100154B96 /* ScribbleMemento+Friend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ScribbleMemento+Friend.m"; sourceTree = "<group>"; };
 		3C6C2AE422E8466200B47C1F /* TouchPainter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPainter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6C2AE722E8466200B47C1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3C6C2AE822E8466200B47C1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,12 +137,6 @@
 		3C6C2AF322E8466400B47C1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C6C2AF522E8466400B47C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C6C2AF622E8466400B47C1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C6C2AFC22E8466400B47C1F /* TouchPainterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C6C2B0022E8466400B47C1F /* TouchPainterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainterTests.m; sourceTree = "<group>"; };
-		3C6C2B0222E8466400B47C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C6C2B0722E8466400B47C1F /* TouchPainterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPainterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C6C2B0B22E8466400B47C1F /* TouchPainterUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPainterUITests.m; sourceTree = "<group>"; };
-		3C6C2B0D22E8466400B47C1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C6C2B1F22E846EB00B47C1F /* Vertex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
 		3C6C2B2022E846EB00B47C1F /* Dot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dot.m; sourceTree = "<group>"; };
 		3C6C2B2122E846EB00B47C1F /* Mark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mark.h; sourceTree = "<group>"; };
@@ -100,21 +149,15 @@
 		3C6C2B2922E846EB00B47C1F /* NSMutableArray+Stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Stack.h"; sourceTree = "<group>"; };
 		3C6C2B2A22E846EB00B47C1F /* MarkEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkEnumerator.h; sourceTree = "<group>"; };
 		3C6C2B2E22E846EB00B47C1F /* SetStrokeColorCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetStrokeColorCommand.h; sourceTree = "<group>"; };
-		3C6C2B2F22E846EB00B47C1F /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
 		3C6C2B3022E846EB00B47C1F /* SetStrokeColorCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetStrokeColorCommand.m; sourceTree = "<group>"; };
-		3C6C2B3122E846EB00B47C1F /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
 		3C6C2B4422E8556900B47C1F /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
 		3C6C2B4522E8556900B47C1F /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
-		3C6C2B4622E8556A00B47C1F /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
-		3C6C2B4722E8556A00B47C1F /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
 		3C6C2B4A22E8559000B47C1F /* CanvasViewGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CanvasViewGenerator.h; sourceTree = "<group>"; };
 		3C6C2B4B22E8559000B47C1F /* CanvasViewGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasViewGenerator.m; sourceTree = "<group>"; };
 		3C6C2B4E22E86B3700B47C1F /* BrandingFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BrandingFactory.h; sourceTree = "<group>"; };
 		3C6C2B4F22E86B3700B47C1F /* BrandingFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BrandingFactory.m; sourceTree = "<group>"; };
 		3C6C2B5422E997B400B47C1F /* PaletteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaletteViewController.h; sourceTree = "<group>"; };
 		3C6C2B5522E997B400B47C1F /* PaletteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaletteViewController.m; sourceTree = "<group>"; };
-		3C6C2B5722E998A300B47C1F /* CommandSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandSlider.m; sourceTree = "<group>"; };
-		3C6C2B5822E998A300B47C1F /* CommandSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandSlider.h; sourceTree = "<group>"; };
 		3CA893FD22F80EF9009EFEE3 /* AnySandwich.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnySandwich.h; sourceTree = "<group>"; };
 		3CA893FE22F80EF9009EFEE3 /* AnySandwich.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnySandwich.m; sourceTree = "<group>"; };
 		3CA8940022F81B2B009EFEE3 /* ReubenSandwich.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReubenSandwich.h; sourceTree = "<group>"; };
@@ -139,24 +182,195 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C6C2AF922E8466400B47C1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C6C2B0422E8466400B47C1F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3C27A23F22F1725D00BBE6D0 /* 桥接 */ = {
+		3C221C50230BFBDD007D4930 /* 对象创建 */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C67230D2A90007D4930 /* Builder(生成器) */,
+				3C6C2B4D22E86AD200B47C1F /* Brand(抽象工厂) */,
+				3C6C2B4022E854F900B47C1F /* CanvasView(工厂方法) */,
+			);
+			name = "对象创建";
+			sourceTree = "<group>";
+		};
+		3C221C51230BFC4D007D4930 /* 接口适配 */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C74230D400C007D4930 /* ScribbleManager(外观) */,
+				3C6C2B2D22E846EB00B47C1F /* 适配器 */,
+				3C27A23F22F1725D00BBE6D0 /* Console(桥接) */,
+			);
+			name = "接口适配";
+			sourceTree = "<group>";
+		};
+		3C221C52230BFC8A007D4930 /* 对象去耦 */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C60230CF46D007D4930 /* Coordinate(中介者,单例) */,
+				3C221C5C230C0025007D4930 /* Scribble(观察者) */,
+			);
+			name = "对象去耦";
+			sourceTree = "<group>";
+		};
+		3C221C53230BFCA6007D4930 /* 抽象集合 */ = {
+			isa = PBXGroup;
+			children = (
+				3C6C2B1E22E846EB00B47C1F /* Mark(组合,原型) */,
+				3C6C2B2622E846EB00B47C1F /* MarkEnumerator(迭代器) */,
+			);
+			name = "抽象集合";
+			sourceTree = "<group>";
+		};
+		3C221C54230BFCDB007D4930 /* 行为扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C78230E40E9007D4930 /* ImageComponent(装饰) */,
+				3C27A24722F3D7BE00BBE6D0 /* MarkVisitor(访问者) */,
+				3C27A24C22F4343000BBE6D0 /* AttackHandler(责任链) */,
+			);
+			name = "行为扩展";
+			sourceTree = "<group>";
+		};
+		3C221C59230BFDB6007D4930 /* 算法封装 */ = {
+			isa = PBXGroup;
+			children = (
+				3CA893FC22F80EA9009EFEE3 /* Sandwich(模板方法) */,
+				3CA8940622F82CD7009EFEE3 /* InputValidator(策略) */,
+				3C221C90230E7F2D007D4930 /* 命令 */,
+			);
+			name = "算法封装";
+			sourceTree = "<group>";
+		};
+		3C221C5A230BFDCB007D4930 /* 性能与对象访问 */ = {
+			isa = PBXGroup;
+			children = (
+				3C221CAB230EB8F4007D4930 /* 享元 */,
+				3C221CB9230F82BB007D4930 /* 代理 */,
+			);
+			name = "性能与对象访问";
+			sourceTree = "<group>";
+		};
+		3C221C5B230BFDE1007D4930 /* 对象状态 */ = {
+			isa = PBXGroup;
+			children = (
+				3C27AAFF230FD5EF00154B96 /* 备忘录 */,
+			);
+			name = "对象状态";
+			sourceTree = "<group>";
+		};
+		3C221C5C230C0025007D4930 /* Scribble(观察者) */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C5D230C11C5007D4930 /* Scribble.h */,
+				3C221C5E230C11C5007D4930 /* Scribble.m */,
+			);
+			path = "Scribble(观察者)";
+			sourceTree = "<group>";
+		};
+		3C221C60230CF46D007D4930 /* Coordinate(中介者,单例) */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C61230CF4C4007D4930 /* CoordinatingController.h */,
+				3C221C62230CF4C4007D4930 /* CoordinatingController.m */,
+			);
+			path = "Coordinate(中介者,单例)";
+			sourceTree = "<group>";
+		};
+		3C221C67230D2A90007D4930 /* Builder(生成器) */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C6C230D2B0A007D4930 /* CharacterBuilder.h */,
+				3C221C6D230D2B0A007D4930 /* CharacterBuilder.m */,
+				3C221C72230D2B29007D4930 /* ChasingGame.h */,
+				3C221C71230D2B29007D4930 /* ChasingGame.m */,
+				3C221C6A230D2B09007D4930 /* Character.h */,
+				3C221C6B230D2B0A007D4930 /* Character.m */,
+				3C221C68230D2B09007D4930 /* StandardCharacterBuilder.h */,
+				3C221C69230D2B09007D4930 /* StandardCharacterBuilder.m */,
+			);
+			path = "Builder(生成器)";
+			sourceTree = "<group>";
+		};
+		3C221C74230D400C007D4930 /* ScribbleManager(外观) */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C75230D4040007D4930 /* ScribbleManager.h */,
+				3C221C76230D4040007D4930 /* ScribbleManager.m */,
+			);
+			path = "ScribbleManager(外观)";
+			sourceTree = "<group>";
+		};
+		3C221C78230E40E9007D4930 /* ImageComponent(装饰) */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C86230E6FC9007D4930 /* Categories */,
+				3C221C79230E4148007D4930 /* ImageComponent.h */,
+				3C221C7D230E42CD007D4930 /* ImageFilter.h */,
+				3C221C7E230E42CD007D4930 /* ImageFilter.m */,
+				3C221C80230E453D007D4930 /* ImageTransformFilter.h */,
+				3C221C81230E453D007D4930 /* ImageTransformFilter.m */,
+				3C221C83230E46A6007D4930 /* ImageShadowFilter.h */,
+				3C221C84230E46A6007D4930 /* ImageShadowFilter.m */,
+			);
+			path = "ImageComponent(装饰)";
+			sourceTree = "<group>";
+		};
+		3C221C86230E6FC9007D4930 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C87230E6FED007D4930 /* UIImage+BaseFilter.h */,
+				3C221C88230E6FED007D4930 /* UIImage+BaseFilter.m */,
+				3C221C8C230E6FED007D4930 /* UIImage+Shadow.h */,
+				3C221C89230E6FED007D4930 /* UIImage+Shadow.m */,
+				3C221C8A230E6FED007D4930 /* UIImage+Transform.h */,
+				3C221C8B230E6FED007D4930 /* UIImage+Transform.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3C221C90230E7F2D007D4930 /* 命令 */ = {
+			isa = PBXGroup;
+			children = (
+				3C221C9D230E8A12007D4930 /* Command.h */,
+				3C221C9F230E8A12007D4930 /* Command.m */,
+				3C221C9E230E8A12007D4930 /* CommandSlider.h */,
+				3C221CA0230E8A12007D4930 /* CommandSlider.m */,
+				3C221CA3230E8B20007D4930 /* DrawScribbleCommand.h */,
+				3C221CA4230E8B20007D4930 /* DrawScribbleCommand.m */,
+			);
+			path = "命令";
+			sourceTree = "<group>";
+		};
+		3C221CAB230EB8F4007D4930 /* 享元 */ = {
+			isa = PBXGroup;
+			children = (
+				3C221CAF230EB921007D4930 /* FlowerFactory.h */,
+				3C221CAC230EB920007D4930 /* FlowerFactory.m */,
+				3C221CAD230EB920007D4930 /* FlowerView.h */,
+				3C221CAE230EB921007D4930 /* FlowerView.m */,
+				3C221CB4230EB93D007D4930 /* FlyweightView.h */,
+				3C221CB2230EB93D007D4930 /* FlyweightView.m */,
+				3C221CB5230EB93E007D4930 /* FlyweightViewController.h */,
+				3C221CB6230EB93E007D4930 /* FlyweightViewController.m */,
+				3C221CB3230EB93D007D4930 /* ExtrinsicFlowerState.h */,
+			);
+			path = "享元";
+			sourceTree = "<group>";
+		};
+		3C221CB9230F82BB007D4930 /* 代理 */ = {
+			isa = PBXGroup;
+			children = (
+				3C221CBA230F831C007D4930 /* ScribbleThumbnailView.h */,
+				3C221CBB230F831C007D4930 /* ScribbleThumbnailView.m */,
+				3C221CBD230F84C2007D4930 /* ScribbleThumbnailViewImageProxy.h */,
+				3C221CBE230F84C2007D4930 /* ScribbleThumbnailViewImageProxy.m */,
+			);
+			path = "代理";
+			sourceTree = "<group>";
+		};
+		3C27A23F22F1725D00BBE6D0 /* Console(桥接) */ = {
 			isa = PBXGroup;
 			children = (
 				3C27A24322F1744400BBE6D0 /* ConsoleCommands.h */,
@@ -165,7 +379,7 @@
 				3C27A24422F1782500BBE6D0 /* ConsoleController.h */,
 				3C27A24522F1782500BBE6D0 /* ConsoleController.m */,
 			);
-			path = "桥接";
+			path = "Console(桥接)";
 			sourceTree = "<group>";
 		};
 		3C27A24722F3D7BE00BBE6D0 /* MarkVisitor(访问者) */ = {
@@ -189,12 +403,21 @@
 			path = "AttackHandler(责任链)";
 			sourceTree = "<group>";
 		};
+		3C27AAFF230FD5EF00154B96 /* 备忘录 */ = {
+			isa = PBXGroup;
+			children = (
+				3C27AB00230FD96A00154B96 /* ScribbleMemento.h */,
+				3C27AB01230FD96A00154B96 /* ScribbleMemento.m */,
+				3C27AB06230FDA3A00154B96 /* ScribbleMemento+Friend.h */,
+				3C27AB09230FE1C100154B96 /* ScribbleMemento+Friend.m */,
+			);
+			path = "备忘录";
+			sourceTree = "<group>";
+		};
 		3C6C2ADB22E8466200B47C1F = {
 			isa = PBXGroup;
 			children = (
 				3C6C2AE622E8466200B47C1F /* TouchPainter */,
-				3C6C2AFF22E8466400B47C1F /* TouchPainterTests */,
-				3C6C2B0A22E8466400B47C1F /* TouchPainterUITests */,
 				3C6C2AE522E8466200B47C1F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -203,8 +426,6 @@
 			isa = PBXGroup;
 			children = (
 				3C6C2AE422E8466200B47C1F /* TouchPainter.app */,
-				3C6C2AFC22E8466400B47C1F /* TouchPainterTests.xctest */,
-				3C6C2B0722E8466400B47C1F /* TouchPainterUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,18 +433,18 @@
 		3C6C2AE622E8466200B47C1F /* TouchPainter */ = {
 			isa = PBXGroup;
 			children = (
-				3CA8940622F82CD7009EFEE3 /* InputValidator(策略) */,
-				3CA893FC22F80EA9009EFEE3 /* Sandwich(模板方法) */,
-				3C27A24C22F4343000BBE6D0 /* AttackHandler(责任链) */,
-				3C27A24722F3D7BE00BBE6D0 /* MarkVisitor(访问者) */,
-				3C27A23F22F1725D00BBE6D0 /* 桥接 */,
-				3C6C2B4D22E86AD200B47C1F /* Brand(抽象工厂) */,
-				3C6C2B4022E854F900B47C1F /* CanvasView(工厂方法) */,
-				3C6C2B2D22E846EB00B47C1F /* Command(适配器) */,
-				3C6C2B1E22E846EB00B47C1F /* Mark(组合) */,
-				3C6C2B2622E846EB00B47C1F /* MarkEnumerator(迭代器) */,
+				3C221C50230BFBDD007D4930 /* 对象创建 */,
+				3C221C51230BFC4D007D4930 /* 接口适配 */,
+				3C221C52230BFC8A007D4930 /* 对象去耦 */,
+				3C221C53230BFCA6007D4930 /* 抽象集合 */,
+				3C221C54230BFCDB007D4930 /* 行为扩展 */,
+				3C221C59230BFDB6007D4930 /* 算法封装 */,
+				3C221C5A230BFDCB007D4930 /* 性能与对象访问 */,
+				3C221C5B230BFDE1007D4930 /* 对象状态 */,
 				3C6C2AE722E8466200B47C1F /* AppDelegate.h */,
 				3C6C2AE822E8466200B47C1F /* AppDelegate.m */,
+				3C27AAFC230FD13A00154B96 /* CanvasViewController.h */,
+				3C27AAFB230FD13A00154B96 /* CanvasViewController.m */,
 				3C6C2AEA22E8466200B47C1F /* ViewController.h */,
 				3C6C2AEB22E8466200B47C1F /* ViewController.m */,
 				3C6C2AED22E8466200B47C1F /* Main.storyboard */,
@@ -235,25 +456,7 @@
 			path = TouchPainter;
 			sourceTree = "<group>";
 		};
-		3C6C2AFF22E8466400B47C1F /* TouchPainterTests */ = {
-			isa = PBXGroup;
-			children = (
-				3C6C2B0022E8466400B47C1F /* TouchPainterTests.m */,
-				3C6C2B0222E8466400B47C1F /* Info.plist */,
-			);
-			path = TouchPainterTests;
-			sourceTree = "<group>";
-		};
-		3C6C2B0A22E8466400B47C1F /* TouchPainterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				3C6C2B0B22E8466400B47C1F /* TouchPainterUITests.m */,
-				3C6C2B0D22E8466400B47C1F /* Info.plist */,
-			);
-			path = TouchPainterUITests;
-			sourceTree = "<group>";
-		};
-		3C6C2B1E22E846EB00B47C1F /* Mark(组合) */ = {
+		3C6C2B1E22E846EB00B47C1F /* Mark(组合,原型) */ = {
 			isa = PBXGroup;
 			children = (
 				3C6C2B2122E846EB00B47C1F /* Mark.h */,
@@ -264,7 +467,7 @@
 				3C6C2B2222E846EB00B47C1F /* Stroke.h */,
 				3C6C2B2522E846EB00B47C1F /* Stroke.m */,
 			);
-			path = "Mark(组合)";
+			path = "Mark(组合,原型)";
 			sourceTree = "<group>";
 		};
 		3C6C2B2622E846EB00B47C1F /* MarkEnumerator(迭代器) */ = {
@@ -278,19 +481,15 @@
 			path = "MarkEnumerator(迭代器)";
 			sourceTree = "<group>";
 		};
-		3C6C2B2D22E846EB00B47C1F /* Command(适配器) */ = {
+		3C6C2B2D22E846EB00B47C1F /* 适配器 */ = {
 			isa = PBXGroup;
 			children = (
 				3C6C2B2E22E846EB00B47C1F /* SetStrokeColorCommand.h */,
 				3C6C2B3022E846EB00B47C1F /* SetStrokeColorCommand.m */,
 				3C6C2B5422E997B400B47C1F /* PaletteViewController.h */,
 				3C6C2B5522E997B400B47C1F /* PaletteViewController.m */,
-				3C6C2B5822E998A300B47C1F /* CommandSlider.h */,
-				3C6C2B5722E998A300B47C1F /* CommandSlider.m */,
-				3C6C2B3122E846EB00B47C1F /* Command.h */,
-				3C6C2B2F22E846EB00B47C1F /* Command.m */,
 			);
-			path = "Command(适配器)";
+			path = "适配器";
 			sourceTree = "<group>";
 		};
 		3C6C2B4022E854F900B47C1F /* CanvasView(工厂方法) */ = {
@@ -300,8 +499,6 @@
 				3C6C2B4422E8556900B47C1F /* CanvasView.m */,
 				3C6C2B4A22E8559000B47C1F /* CanvasViewGenerator.h */,
 				3C6C2B4B22E8559000B47C1F /* CanvasViewGenerator.m */,
-				3C6C2B4622E8556A00B47C1F /* CanvasViewController.h */,
-				3C6C2B4722E8556A00B47C1F /* CanvasViewController.m */,
 			);
 			path = "CanvasView(工厂方法)";
 			sourceTree = "<group>";
@@ -363,42 +560,6 @@
 			productReference = 3C6C2AE422E8466200B47C1F /* TouchPainter.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3C6C2AFB22E8466400B47C1F /* TouchPainterTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C6C2B1322E8466400B47C1F /* Build configuration list for PBXNativeTarget "TouchPainterTests" */;
-			buildPhases = (
-				3C6C2AF822E8466400B47C1F /* Sources */,
-				3C6C2AF922E8466400B47C1F /* Frameworks */,
-				3C6C2AFA22E8466400B47C1F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C6C2AFE22E8466400B47C1F /* PBXTargetDependency */,
-			);
-			name = TouchPainterTests;
-			productName = TouchPainterTests;
-			productReference = 3C6C2AFC22E8466400B47C1F /* TouchPainterTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		3C6C2B0622E8466400B47C1F /* TouchPainterUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3C6C2B1622E8466400B47C1F /* Build configuration list for PBXNativeTarget "TouchPainterUITests" */;
-			buildPhases = (
-				3C6C2B0322E8466400B47C1F /* Sources */,
-				3C6C2B0422E8466400B47C1F /* Frameworks */,
-				3C6C2B0522E8466400B47C1F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3C6C2B0922E8466400B47C1F /* PBXTargetDependency */,
-			);
-			name = TouchPainterUITests;
-			productName = TouchPainterUITests;
-			productReference = 3C6C2B0722E8466400B47C1F /* TouchPainterUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -410,14 +571,6 @@
 				TargetAttributes = {
 					3C6C2AE322E8466200B47C1F = {
 						CreatedOnToolsVersion = 10.1;
-					};
-					3C6C2AFB22E8466400B47C1F = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 3C6C2AE322E8466200B47C1F;
-					};
-					3C6C2B0622E8466400B47C1F = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 3C6C2AE322E8466200B47C1F;
 					};
 				};
 			};
@@ -435,8 +588,6 @@
 			projectRoot = "";
 			targets = (
 				3C6C2AE322E8466200B47C1F /* TouchPainter */,
-				3C6C2AFB22E8466400B47C1F /* TouchPainterTests */,
-				3C6C2B0622E8466400B47C1F /* TouchPainterUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -452,20 +603,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C6C2AFA22E8466400B47C1F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C6C2B0522E8466400B47C1F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -476,64 +613,57 @@
 				3C6C2B4822E8556A00B47C1F /* CanvasView.m in Sources */,
 				3CA893FF22F80EF9009EFEE3 /* AnySandwich.m in Sources */,
 				3C6C2AEC22E8466200B47C1F /* ViewController.m in Sources */,
+				3C27AAFD230FD13A00154B96 /* CanvasViewController.m in Sources */,
+				3C221CA5230E8B20007D4930 /* DrawScribbleCommand.m in Sources */,
 				3C6C2B3522E846EB00B47C1F /* Vertex.m in Sources */,
+				3C221CB1230EB921007D4930 /* FlowerView.m in Sources */,
 				3CA8941222F830F9009EFEE3 /* CustomTextField.m in Sources */,
+				3C221C8D230E6FED007D4930 /* UIImage+BaseFilter.m in Sources */,
+				3C221C8F230E6FED007D4930 /* UIImage+Transform.m in Sources */,
+				3C221C73230D2B29007D4930 /* ChasingGame.m in Sources */,
 				3C6C2AF722E8466400B47C1F /* main.m in Sources */,
+				3C221C63230CF4C4007D4930 /* CoordinatingController.m in Sources */,
 				3CA8940F22F830CC009EFEE3 /* AlphaInputValidator.m in Sources */,
+				3C221CB7230EB93E007D4930 /* FlyweightView.m in Sources */,
 				3CA8940C22F82DD7009EFEE3 /* NumericInputValidator.m in Sources */,
+				3C221CA2230E8A12007D4930 /* CommandSlider.m in Sources */,
+				3C221C6E230D2B0A007D4930 /* StandardCharacterBuilder.m in Sources */,
 				3C27A25222F434ED00BBE6D0 /* AttackHandler.m in Sources */,
+				3C221C8E230E6FED007D4930 /* UIImage+Shadow.m in Sources */,
+				3C221CB0230EB921007D4930 /* FlowerFactory.m in Sources */,
 				3C6C2B5622E997B400B47C1F /* PaletteViewController.m in Sources */,
 				3C6C2B3622E846EB00B47C1F /* Stroke.m in Sources */,
 				3C6C2B3422E846EB00B47C1F /* Dot.m in Sources */,
 				3C27A24622F1782500BBE6D0 /* ConsoleController.m in Sources */,
-				3C6C2B3A22E846EB00B47C1F /* Command.m in Sources */,
+				3C221CA1230E8A12007D4930 /* Command.m in Sources */,
+				3C221C5F230C11C5007D4930 /* Scribble.m in Sources */,
 				3C27A24B22F3D98B00BBE6D0 /* MarkRenderer.m in Sources */,
+				3C221C85230E46A6007D4930 /* ImageShadowFilter.m in Sources */,
 				3C6C2B3822E846EB00B47C1F /* NSMutableArray+Stack.m in Sources */,
+				3C221C6F230D2B0A007D4930 /* Character.m in Sources */,
+				3C221CBC230F831C007D4930 /* ScribbleThumbnailView.m in Sources */,
 				3C27A24F22F4347300BBE6D0 /* Attack.m in Sources */,
 				3C6C2B5022E86B3700B47C1F /* BrandingFactory.m in Sources */,
+				3C221CB8230EB93E007D4930 /* FlyweightViewController.m in Sources */,
+				3C221CBF230F84C2007D4930 /* ScribbleThumbnailViewImageProxy.m in Sources */,
 				3C27A24222F1737100BBE6D0 /* ConsoleEmulator.m in Sources */,
+				3C221C82230E453D007D4930 /* ImageTransformFilter.m in Sources */,
 				3C6C2B3722E846EB00B47C1F /* MarkEnumerator.m in Sources */,
+				3C221C7F230E42CD007D4930 /* ImageFilter.m in Sources */,
 				3CA8940222F81B2B009EFEE3 /* ReubenSandwich.m in Sources */,
+				3C27AB02230FD96A00154B96 /* ScribbleMemento.m in Sources */,
 				3C6C2B4C22E8559000B47C1F /* CanvasViewGenerator.m in Sources */,
+				3C27AB0A230FE1C100154B96 /* ScribbleMemento+Friend.m in Sources */,
 				3CA8940922F82D18009EFEE3 /* InputValidator.m in Sources */,
 				3CA8940522F81C0F009EFEE3 /* Hamburger.m in Sources */,
-				3C6C2B5922E998A300B47C1F /* CommandSlider.m in Sources */,
-				3C6C2B4922E8556A00B47C1F /* CanvasViewController.m in Sources */,
 				3C6C2B3B22E846EB00B47C1F /* SetStrokeColorCommand.m in Sources */,
+				3C221C70230D2B0A007D4930 /* CharacterBuilder.m in Sources */,
+				3C221C77230D4040007D4930 /* ScribbleManager.m in Sources */,
 				3C6C2AE922E8466200B47C1F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C6C2AF822E8466400B47C1F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C6C2B0122E8466400B47C1F /* TouchPainterTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3C6C2B0322E8466400B47C1F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3C6C2B0C22E8466400B47C1F /* TouchPainterUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3C6C2AFE22E8466400B47C1F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3C6C2AE322E8466200B47C1F /* TouchPainter */;
-			targetProxy = 3C6C2AFD22E8466400B47C1F /* PBXContainerItemProxy */;
-		};
-		3C6C2B0922E8466400B47C1F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3C6C2AE322E8466200B47C1F /* TouchPainter */;
-			targetProxy = 3C6C2B0822E8466400B47C1F /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3C6C2AED22E8466200B47C1F /* Main.storyboard */ = {
@@ -699,76 +829,6 @@
 			};
 			name = Release;
 		};
-		3C6C2B1422E8466400B47C1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TouchPainterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = wang.com.TouchPainterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPainter.app/TouchPainter";
-			};
-			name = Debug;
-		};
-		3C6C2B1522E8466400B47C1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TouchPainterTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = wang.com.TouchPainterTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPainter.app/TouchPainter";
-			};
-			name = Release;
-		};
-		3C6C2B1722E8466400B47C1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TouchPainterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = wang.com.TouchPainterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TouchPainter;
-			};
-			name = Debug;
-		};
-		3C6C2B1822E8466400B47C1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TouchPainterUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = wang.com.TouchPainterUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TouchPainter;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -786,24 +846,6 @@
 			buildConfigurations = (
 				3C6C2B1122E8466400B47C1F /* Debug */,
 				3C6C2B1222E8466400B47C1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C6C2B1322E8466400B47C1F /* Build configuration list for PBXNativeTarget "TouchPainterTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C6C2B1422E8466400B47C1F /* Debug */,
-				3C6C2B1522E8466400B47C1F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3C6C2B1622E8466400B47C1F /* Build configuration list for PBXNativeTarget "TouchPainterUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3C6C2B1722E8466400B47C1F /* Debug */,
-				3C6C2B1822E8466400B47C1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

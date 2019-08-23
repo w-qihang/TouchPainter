@@ -28,6 +28,7 @@ NS_ASSUME_NONNULL_BEGIN
     @private
     id <Mark> mark_;
 }
+@property (nonatomic,strong) id <Mark> mark;
 @end
 
 

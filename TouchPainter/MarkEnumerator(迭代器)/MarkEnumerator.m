@@ -7,6 +7,8 @@
 //
 
 #import "MarkEnumerator.h"
+#import "NSMutableArray+Stack.h"
+#import "Mark.h"
 
 @implementation MarkEnumerator
 
